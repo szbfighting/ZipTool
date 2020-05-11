@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fileFragment"
+        android:icon="@drawable/ic_insert_drive_file_yellow_24dp"
+        android:title="@string/nav_file" />
+    <item
+        android:id="@+id/transmissionFragment"
+        android:icon="@drawable/ic_transform_black_24dp"
+        android:title="@string/nav_transmission" />
+    <item
+        android:id="@+id/mineFragment"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/nav_mine" />
+</menu>

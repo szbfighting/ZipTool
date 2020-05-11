@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ZipTool</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_file">File</string>
+    <string name="nav_transmission">Transmission</string>
+    <string name="nav_mine">Mine</string>
+    <string name="trans_blue_tooth">BlueTooth</string>
+    <string name="trans_wifi">Wifi</string>
+    <string name="file_zip">Zip</string>
+    <string name="file_unZip">UnZip</string>
+    <string name="selected_file_all">ALL</string>
+    <string name="selected_file_pdf">PDF</string>
+    <string name="selected_file_ppt">PPT</string>
+    <string name="selected_file_doc">DOC</string>
+    <string name="selected_file_xls">XLS</string>
+    <string name="selected_file_txt">TXT</string>
+    <string name="bluetooth_open">开启蓝牙</string>
+    <string name="bluetooth_name">蓝牙名称</string>
+    <string name="bonded_devices">已配对的设备</string>
+    <string name="enable_devices">可用设备</string>
+    <string name="file_share">分享</string>
+    <string name="file_move">移动到</string>
+    <string name="file_delete">删除</string>
+    <string name="file_pack">文件压缩</string>
+    <string name="unzip_path">/ZipTool/UnZip</string>
+    <string name="zip_path">/ZipTool/Zip</string>
+    <string name="zip_alert">提示：若不输入，默认为被压缩的第一个文件名</string>
+
+
+</resources>

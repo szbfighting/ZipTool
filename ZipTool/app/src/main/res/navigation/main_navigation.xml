@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/fileFragment">
+
+    <fragment
+        android:id="@+id/fileFragment"
+        android:name="com.example.ziptool.ui.main.file.FileFragment"
+        android:label="File"
+        tools:layout="@layout/file_fragment" >
+        <action
+            android:id="@+id/action_fileFragment_to_fileFragment2"
+            app:destination="@id/fileFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/transmissionFragment"
+        android:name="com.example.ziptool.ui.main.transmission.TransmissionFragment"
+        android:label="Transmission"
+        tools:layout="@layout/transmission_fragment" />
+    <fragment
+        android:id="@+id/mineFragment"
+        android:name="com.example.ziptool.ui.main.mine.MineFragment"
+        android:label="Mine"
+        tools:layout="@layout/mine_fragment" />
+    <fragment
+        android:id="@+id/fileFragment2"
+        android:name="com.example.ziptool.ui.main.selectFile.FileFragment"
+        android:label="Select File"
+        tools:layout="@layout/file_fragment2" >
+        <action
+            android:id="@+id/action_fileFragment2_to_zipPathFragment"
+            app:destination="@id/zipPathFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/zipPathFragment"
+        android:name="com.example.ziptool.ui.main.ZipPathFragment"
+        android:label="fragment_zip_path"
+        tools:layout="@layout/fragment_zip_path" />
+</navigation>
