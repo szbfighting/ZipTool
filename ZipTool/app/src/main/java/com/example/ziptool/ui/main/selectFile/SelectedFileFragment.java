@@ -95,11 +95,13 @@ public class SelectedFileFragment extends Fragment {
             case "ALL":{
                 adapter.addAllFiles(fileViewModel.getAllFile().getValue());
                 binding.setAdapter(adapter);
+
             }
             break;
             case "DOC": {
                 adapter.addAllFiles(fileViewModel.getDocFile().getValue());
                 binding.setAdapter(adapter);
+
             }
             break;
             case "PPT": {

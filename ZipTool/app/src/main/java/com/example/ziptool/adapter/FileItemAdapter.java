@@ -37,7 +37,9 @@ public class FileItemAdapter extends RecyclerView.Adapter<FileItemAdapter.ViewHo
     }
 
     public void addAllFiles(List<FileInfo> list) {
+        this.list.clear();
         this.list.addAll(list);
+        notifyDataSetChanged();
     }
 
     @NonNull
